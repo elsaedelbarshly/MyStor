@@ -64,6 +64,7 @@ class CategoryController extends Controller
         $category=Category::where('id',$id)->update([
             'category_name' => $request->category_name
         ]);
+        
         if($category){
             $notificatio=array(
                     'messege' =>'Category Update Successfuly',

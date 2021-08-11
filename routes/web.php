@@ -25,6 +25,8 @@ Route::get('/', function () {
 //     return view('admin.auth.login');
 // });
 
+Route::post('/subscriber/store','Front\NewlaterController@store')->name('store.newlater');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

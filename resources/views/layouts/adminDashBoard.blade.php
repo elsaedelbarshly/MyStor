@@ -37,6 +37,7 @@
 
      <!-- chart -->
      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">
+     
     <!-- database table-->
      <link href="{{ asset('backend/lib/highlightjs/github.css') }}" rel="stylesheet">
      <link href="{{ asset('backend/lib/datatables/jquery.dataTables.css') }}" rel="stylesheet">

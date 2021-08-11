@@ -12,7 +12,13 @@ class Brand extends Model
     protected $table = 'brands';
 
     protected $fillable = [
-        'brand_name'
+        'brand_name',
+        'brand_logo'
     ];
+
+    public function getImageAttribute()
+    {
+        return asset('storage/'. $this->brand_logo);
+    }
 
 }
